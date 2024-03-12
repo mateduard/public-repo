@@ -22,25 +22,35 @@ The script looks like this:
 **cat /etc/passwd | grep john** ==> Making sure user is created.
 
 ![](./screenshots1/image3.png)
+
 Obviously, there is an error when trying to execute the script:
+
 ![](./screenshots1/image4.png)
+
 We need to modify the script, as there is a typo “lage” instead of “laRge”.
 Everything seems fine now:
 
 ![](./screenshots1/image5.png)
+
 I created the script file “my_script.sh”, then I made sure it has execution privilleges:
+
 ![](./screenshots1/image6.png)
+
 **Task 0:**
 Wrote a function called “check_file_name” inside the bash script:
 
 ![](./screenshots1/image7.png)
+
 Execution:
+
 ![](./screenshots1/image8.png)
+
 As for the rest of the tasks, I will simply print the outputs together as there are too many of them to be displayed separately.
 Meanwhile, I needed to install iproute2 and curl with apt-get. 
 **apt-get install -y iproute2**
 **apt-get install -y curl**
 Outputs: 
+
 ![](./screenshots1/image9.png)
 
 ![](./screenshots1/image10.png)
